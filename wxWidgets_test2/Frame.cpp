@@ -241,5 +241,3 @@ void Frame::OnPaint(wxPaintEvent &event)
 		dcb.DrawText(wxT("SimBuLaX"), wxPoint(size.x/3,size.y/3));
 	}
 }
-
-
