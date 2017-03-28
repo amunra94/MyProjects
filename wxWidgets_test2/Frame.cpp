@@ -239,5 +239,6 @@ void Frame::OnPaint(wxPaintEvent &event)
 		dcb.SetFont(fontName);
 		dcb.SetTextForeground(*wxYELLOW);
 		dcb.DrawText(wxT("SimBuLaX"), wxPoint(size.x/3,size.y/3));
+	
 	}
 }
